@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.nojuslopro.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ClientPlayNetworkHandlerMixin",
+    "TitleScreenMixin",
+    "GameMenuScreenMixin",
+    "MultiplayerScreenMixin",
+    "MinecraftClientMixin"
+
+  ],
+  "client": [
+
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
